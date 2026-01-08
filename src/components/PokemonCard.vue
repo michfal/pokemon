@@ -7,7 +7,6 @@ const props = defineProps({
   pokemon: {
     type: Object,
     required: true,
-    // { id, name, num, types: ["Fire"], img }
   },
 })
 

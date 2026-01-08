@@ -3,8 +3,8 @@ import { typeColors } from "@/utils/typeColors"
 import { isLightHex } from "@/utils/color"
 
 const props = defineProps({
-  types: { type: Array, required: true },          // np. ["normal","fire"...] (bez "all" też OK)
-  modelValue: { type: Array, required: true },     // np. ["fire","water"]
+  types: { type: Array, required: true },
+  modelValue: { type: Array, required: true },
 })
 const emit = defineEmits(["update:modelValue"])
 

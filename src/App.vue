@@ -68,7 +68,6 @@ const filtered = computed(() => {
         <PokemonGrid :items="filtered" @open="openDetails" />
       </div>
 
-      <!-- Load More -->
       <div class="mt-10 flex justify-center">
         <button
           @click="loadMore"
